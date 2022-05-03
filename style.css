@@ -26,14 +26,10 @@ a{
 
 svg.logo {
     width: 300px;
-    filter:invert(1);
+    margin-bottom: 3em;
+    fill: #fff;
 }
 
-h2 {
-    font-weight: 100;
-    font-size: 3em;
-    letter-spacing: .5em;
-}
 
 a {
     font-weight: 100;
