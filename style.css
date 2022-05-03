@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: rgb(28,28,28);
+    background: linear-gradient(90deg, rgba(28,28,28,1) 0%, rgba(16,38,54,1) 100%);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a{
+    color: #fff;
+}
+
+.site-wrapper {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.site-content {
+    margin:auto auto;
+    text-align: center;
+}
+
+svg.logo {
+    width: 300px;
+    filter:invert(1);
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 3em;
+    letter-spacing: .5em;
+}
+
+a {
+    font-weight: 100;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 200ms;
+}
+
+a:hover {
+    border-bottom: 1px solid #fff;
+}
